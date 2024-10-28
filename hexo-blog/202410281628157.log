@@ -1,0 +1,109 @@
+2024-10-10 20:02:53 [PicGo INFO] Before transform
+2024-10-10 20:02:53 [PicGo INFO] Transforming...
+2024-10-10 20:02:53 [PicGo INFO] Before upload
+2024-10-10 20:02:53 [PicGo INFO] Uploading...
+2024-10-10 20:02:53 [PicGo WARN] failed
+2024-10-10 20:02:53 [PicGo ERROR] Error: Can't find smms config, please provide api token, see https://sm.ms/home/apitoken
+------Error Stack Begin------
+Error: Can't find smms config, please provide api token, see https://sm.ms/home/apitoken
+    at Object.handle (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\plugins\uploader\smms.js:26:15)
+    at Lifecycle.doUpload (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\core\Lifecycle.js:70:24)
+    at Lifecycle.start (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\core\Lifecycle.js:21:24)
+    at async PicGo.upload (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\core\PicGo.js:156:13)
+    at async Command.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\plugins\commander\upload.js:29:13)
+-------Error Stack End-------
+2024-10-28 16:12:42 [PicGo INFO] Before transform
+2024-10-28 16:12:42 [PicGo INFO] Transforming...
+2024-10-28 16:12:42 [PicGo INFO] Before upload
+2024-10-28 16:12:42 [PicGo INFO] Uploading...
+2024-10-28 16:12:43 [PicGo WARN] failed
+2024-10-28 16:12:43 [PicGo ERROR] StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+    at new StatusCodeError (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
+2024-10-28 16:13:42 [PicGo INFO] Before transform
+2024-10-28 16:13:42 [PicGo INFO] Transforming...
+2024-10-28 16:13:42 [PicGo INFO] Before upload
+2024-10-28 16:13:42 [PicGo INFO] Uploading...
+2024-10-28 16:13:43 [PicGo WARN] failed
+2024-10-28 16:13:43 [PicGo ERROR] StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+    at new StatusCodeError (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
+2024-10-28 16:15:44 [PicGo INFO] Before transform
+2024-10-28 16:15:44 [PicGo INFO] Transforming...
+2024-10-28 16:15:44 [PicGo INFO] Before upload
+2024-10-28 16:15:44 [PicGo INFO] Uploading...
+2024-10-28 16:15:45 [PicGo WARN] failed
+2024-10-28 16:15:45 [PicGo ERROR] StatusCodeError: 404 - {"message":"Branch main not found","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"404"}
+------Error Stack Begin------
+StatusCodeError: 404 - {"message":"Branch main not found","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"404"}
+    at new StatusCodeError (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
+2024-10-28 16:16:18 [PicGo INFO] Before transform
+2024-10-28 16:16:18 [PicGo INFO] Transforming...
+2024-10-28 16:16:18 [PicGo INFO] Before upload
+2024-10-28 16:16:18 [PicGo INFO] Uploading...
+2024-10-28 16:16:18 [PicGo WARN] failed
+2024-10-28 16:16:18 [PicGo ERROR] StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+    at new StatusCodeError (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
+2024-10-28 16:24:45 [PicGo INFO] Before transform
+2024-10-28 16:24:45 [PicGo INFO] Transforming...
+2024-10-28 16:24:45 [PicGo INFO] Before upload
+2024-10-28 16:24:45 [PicGo INFO] Uploading...
+2024-10-28 16:24:45 [PicGo WARN] failed
+2024-10-28 16:24:45 [PicGo ERROR] StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+------Error Stack Begin------
+StatusCodeError: 422 - {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+    at new StatusCodeError (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\wing_\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
